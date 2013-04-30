@@ -1,0 +1,50 @@
+body {
+	background: #ffee66;
+}
+
+#nav ul { 
+	list-style-type: none;
+	margin: 0; 
+	padding: 0; 
+}
+
+#nav li { 
+	float: left;
+}
+
+#nav li a { 
+	width: 150px; 
+	background: white; 
+	display: block; 
+	text-align: center;  
+	margin-right: 1px; 
+	color: black;
+	height: 35px; 
+	line-height: 35px; 
+	text-decoration: none; 
+	font-size: 80%; 
+	border: 1px solid black;
+}
+
+#nav li a:hover { 
+	text-decoration: underline;
+}
+
+#nav ul ul { 
+	display: none;
+}
+
+#nav li li { 
+	float: none;
+}
+
+#nav li li a { 
+	background: white; 
+	text-align: center; 
+	height: auto; 
+	line-height: 1; 
+	width: auto; 
+	padding: 8px 20px 8px 22px; 
+	border: 1px solid black; 
+	border-top: none;
+}

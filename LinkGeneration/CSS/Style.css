@@ -1,0 +1,18 @@
+body {
+	width: 1000px;
+	height: 2000px;
+	margin: 0 auto 0;
+}
+
+.Z {
+	height: 300px;
+	width: 1000px;
+	background: lightblue;
+	text-align: center;
+}
+
+.Sammlung {
+	height: 300px;
+	width: 1000px;
+	background: lightgreen;
+}
